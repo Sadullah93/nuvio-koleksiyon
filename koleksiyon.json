@@ -1,0 +1,48 @@
+[
+  {
+    "id": "regional.asian-mix",
+    "title": "🌏 Asya Sineması",
+    "showAllTab": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "pinToTop": true,
+    "focusGlowEnabled": true,
+    "folders": [
+      {
+        "id": "regional.mix.kore",
+        "title": "🇰🇷 Kore Filmleri & Dizileri",
+        "tileShape": "POSTER",
+        "hideTitle": false,
+        "focusGifEnabled": false,
+        "catalogSources": [
+          { "addonId": "org.nuvio.regionalcatalog", "catalogId": "regional.movie.kr.popular", "type": "movie" },
+          { "addonId": "org.nuvio.regionalcatalog", "catalogId": "regional.series.kr.popular", "type": "series" }
+        ],
+        "coverEmoji": "🇰🇷"
+      },
+      {
+        "id": "regional.mix.cin",
+        "title": "🇨🇳 Çin Filmleri & Dizileri",
+        "tileShape": "POSTER",
+        "hideTitle": false,
+        "focusGifEnabled": false,
+        "catalogSources": [
+          { "addonId": "org.nuvio.regionalcatalog", "catalogId": "regional.movie.cn.popular", "type": "movie" },
+          { "addonId": "org.nuvio.regionalcatalog", "catalogId": "regional.series.cn.popular", "type": "series" }
+        ],
+        "coverEmoji": "🇨🇳"
+      },
+      {
+        "id": "regional.mix.anime",
+        "title": "🇯🇵 Anime Filmleri & Dizileri",
+        "tileShape": "POSTER",
+        "hideTitle": false,
+        "focusGifEnabled": false,
+        "catalogSources": [
+          { "addonId": "org.nuvio.regionalcatalog", "catalogId": "regional.movie.jp.popular", "type": "movie" },
+          { "addonId": "org.nuvio.regionalcatalog", "catalogId": "regional.series.jp.popular", "type": "series" }
+        ],
+        "coverEmoji": "🇯🇵"
+      }
+    ]
+  }
+]
